@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#mian{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red;   */
+    display: flex;
+    align-items: center;
+    justify-content:  flex-end;
+gap: 30px;
+padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 500px;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 50%;
+ padding: 10px;
+ font-size: 20px
+
+}
+#center{
+    width : 100%;
+padding: 40px 80px;
+}
+#center h1{
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+}
+#center-in{
+    height: 200px;
+    
+   width: 100%;
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+
+}
+#center-in p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.elem i{
+    font-weight: 500;
+    font-size: 25px;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+
+}
+.elem:hover a{
+  text-decoration: underline;
+
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+#bottom{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://media.gettyimages.com/id/2151268824/photo/anok-yai-at-the-2024-met-gala-sleeping-beauties-reawakening-fashion-held-at-the-metropolitan.jpg?s=612x612&w=0&k=20&c=OPQN-hgpAGT2lBirrpFBxX2c94MyvijZYRUrtCspeiA=);
+    background-size: cover;
+    background-position: 0 20%;
+
+}
